@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Libre+Franklin:wght@200&family=Roboto:wght@300&display=swap");
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@layer components {
+  .active {
+    @apply no-underline text-highlight2 dark:text-highlight;
+  }
+  .inactive {
+    @apply no-underline text-fontColor2 dark:text-fontColor;
+  }
+  .navitems {
+    @apply transition-all;
+  }
+}
+
+/* @layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+
+  hover:text-highlight2 dark:hover:text-highlight
+} */
