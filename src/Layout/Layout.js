@@ -188,9 +188,7 @@ export default function Layout({ children }) {
         </div>
       </div>
       {/* copyright ribbon */}
-      <div className="w-full md:w-max font-semibold md:-rotate-45 fixed top-[96%] md:top-20 left-0 md:left-[-270px] p-2 md:pl-56 md:pr-72 text-bgColor bg-highlight2 dark:bg-highlight text-center">
-        <span>&copy; Copyright 2024...Made with Love</span>
-      </div>
+
       {/* custom cursor */}
       <motion.div
         variants={variants}
